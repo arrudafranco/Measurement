@@ -1,4 +1,5 @@
-Final Exam
+Factor Analysis of Religious Participation Variables versus Democratic
+Participation Variables in Latin America
 ================
 Gustavo Arruda
 6/4/2021
@@ -210,30 +211,41 @@ model.
 Baptista, Saulo. 2009. Pentecostais E Neopentecostais Na Política
 Brasileira: Um Estudo Sobre Cultura Política, Estado E Atores Coletivos
 Religiosos No Brasil. Sao Paulo: Instituto Metodista Izabela Hendrix.
+
 Brady, Henry E., Sidney Verba, and Kay Lehman Schlozman. 1995. “Beyond
 Ses: A Resource Model of Political Participation.” The American
-Political Science Review 89(2):271–94. doi: 10.2307/2082425. Casanova,
-Jose. 1994. Public Religions in the Modern World. 2nd ed. Chicago, IL:
-University of Chicago Press. Chesnut, R. Andrew. 1997. Born Again in
-Brazil: The Pentecostal Boom and the Pathogens of Poverty. 1st Editio.
-New Brunswick: Rutgers University Press. HACKETT, CONRAD, and D. MICHAEL
-LINDSAY. 2008. “Measuring Evangelicalism: Consequences of Different
-Operationalization Strategies.” Journal for the Scientific Study of
-Religion 47(3):499–514. doi:
-<https://doi.org/10.1111/j.1468-5906.2008.00423.x>. Kellstedt, Lyman,
-and Corwin Smidt. 1991. “Measuring Fundamentalism: An Analysis of
-Different Operational Strategies.” Journal for the Scientific Study of
-Religion 30(3):259–78. doi: 10.2307/1386972. Martin, David. 1990.
-Tongues of Fire: Explosion of Protestantism in Latin America. London,
-England: Blackwell. Nicolau, Jairo. 2014. “Determinantes Do Voto No
-Primeiro Turno Das Eleições Presidenciais Brasileiras de 2010: Uma
-Análise Exploratória.” Opiniao Publica 20(3):311–25. doi:
-10.1590/1807-01912014203311. Pew Research Center. 2014. “Appendix A:
-Methodology” Religion in Latin America. Retrieved
+Political Science Review 89(2):271–94. doi: 10.2307/2082425.
+
+Casanova, Jose. 1994. Public Religions in the Modern World. 2nd
+ed. Chicago, IL: University of Chicago Press.
+
+Chesnut, R. Andrew. 1997. Born Again in Brazil: The Pentecostal Boom and
+the Pathogens of Poverty. 1st Editio. New Brunswick: Rutgers University
+Press.
+
+HACKETT, CONRAD, and D. MICHAEL LINDSAY. 2008. “Measuring
+Evangelicalism: Consequences of Different Operationalization
+Strategies.” Journal for the Scientific Study of Religion 47(3):499–514.
+doi: <https://doi.org/10.1111/j.1468-5906.2008.00423.x>.
+
+Kellstedt, Lyman, and Corwin Smidt. 1991. “Measuring Fundamentalism: An
+Analysis of Different Operational Strategies.” Journal for the
+Scientific Study of Religion 30(3):259–78. doi: 10.2307/1386972.
+
+Martin, David. 1990. Tongues of Fire: Explosion of Protestantism in
+Latin America. London, England: Blackwell.
+
+Nicolau, Jairo. 2014. “Determinantes Do Voto No Primeiro Turno Das
+Eleições Presidenciais Brasileiras de 2010: Uma Análise Exploratória.”
+Opiniao Publica 20(3):311–25. doi: 10.1590/1807-01912014203311.
+
+Pew Research Center. 2014. “Appendix A: Methodology” Religion in Latin
+America. Retrieved
 (<https://www.pewforum.org/2014/11/13/appendix-a-methodology/>). Putnam,
-Robert D. 2000. Bowling Alone. New York: Simon & Schuster. Stoll, David.
-1990. Is Latin America Turning Protestant?: The Politics of Evangelical
-Growth. Berkeley, CA: University of California Press.
+Robert D. 2000. Bowling Alone. New York: Simon & Schuster.
+
+Stoll, David. 1990. Is Latin America Turning Protestant?: The Politics
+of Evangelical Growth. Berkeley, CA: University of California Press.
 
 # Appendix A - Questionnaire
 

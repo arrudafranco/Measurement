@@ -1,5 +1,5 @@
 ---
-title: "Final Exam"
+title: "Factor Analysis of Religious Participation Variables versus Democratic Participation Variables in Latin America"
 author: "Gustavo Arruda"
 date: "6/4/2021"
 output: github_document
