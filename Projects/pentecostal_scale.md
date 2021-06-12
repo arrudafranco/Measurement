@@ -411,3 +411,54 @@ Art.” Social Forces 79(1):291–318. doi: 10.2307/2675572.
 
 Stoll, David. 1990. Is Latin America Turning Protestant?: The Politics
 of Evangelical Growth. Berkeley, CA: University of California Press.
+
+# Appendix A – Test Items
+
+## CRITERIUM VARIABLE (PENTECOSTAL SELF-IDENTIFICATION)
+
+ASK IF CHRISTIAN (QCURREL = 1,2 OR QCURRELc=1) (IF CHRISTIAN, INCLUDING
+CATHOLICS AND ALL SELF-IDENTIFIED CHRISTIANS) Q28 Would you describe
+yourself as a (INSERT ITEM), or not? And would you describe yourself as
+a (INSERT ITEM) or not?
+
+1.  pentecostal
+2.  NO ITEM B
+3.  charismatic ASK IF PROTESTANT (CURREL = 2)
+4.  “born again”
+
+1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
+
+## CONSTRUCT/PREDICTOR VARIABLES (PENTECOSTAL ATTITUDES AND BEHAVIORS)
+
+### DICHOTOMOUS (10 QUESTIONS)
+
+ASK ALL Q55 Have you ever (INSERT)
+
+1.  experienced or witnessed a divine healing of an illness or injury?
+2.  given or interpreted prophecy?
+3.  NO ITEM C
+4.  received a direct revelation from God?
+5.  experienced or witnessed the devil or evil spirits being driven out
+    of a person?
+6.  spoken or prayed in tongues?
+
+1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
+
+ASK ALL Q60 Which, if any, of the following do you believe? Do you
+believe (INSERT), or not? (READ LIST)
+
+1.  in God?
+2.  in Heaven?
+3.  in Hell?
+4.  in Miracles?
+
+1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
+
+ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5) Q46
+And does the church or house of worship where you most often attend
+religious services (INSERT)? (READ LIST)
+
+1.  Try to bring others into the faith by spreading the message of
+    Christ?
+
+1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)

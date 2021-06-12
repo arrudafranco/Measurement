@@ -148,3 +148,67 @@ Steensland, Brian, Jerry Z. Park, Mark D. Regnerus, Lynn D. Robinson, W. Bradfor
 “The Measure of American Religion: Toward Improving the State of the Art.” Social Forces 79(1):291–318. doi: 10.2307/2675572.
 
 Stoll, David. 1990. Is Latin America Turning Protestant?: The Politics of Evangelical Growth. Berkeley, CA: University of California Press.
+
+# Appendix A – Test Items
+
+## CRITERIUM VARIABLE (PENTECOSTAL SELF-IDENTIFICATION)
+
+ASK IF CHRISTIAN (QCURREL = 1,2 OR QCURRELc=1) (IF CHRISTIAN, INCLUDING CATHOLICS AND ALL SELF-IDENTIFIED CHRISTIANS)
+Q28	Would you describe yourself as a (INSERT ITEM), or not? And would you describe
+yourself as a (INSERT ITEM) or not? 
+
+a.	pentecostal 
+b. 	NO ITEM B
+c.	charismatic 
+ASK IF PROTESTANT (CURREL = 2)
+d.	“born again” 
+
+1	Yes
+2	No
+98	Don’t know (DO NOT READ)
+99	Refused (DO NOT READ)
+
+## CONSTRUCT/PREDICTOR VARIABLES (PENTECOSTAL ATTITUDES AND BEHAVIORS)
+
+### DICHOTOMOUS (10 QUESTIONS)
+
+ASK ALL
+Q55	Have you ever (INSERT) 
+
+a.	experienced or witnessed a divine healing of an illness or injury? 
+b.	given or interpreted prophecy? 
+c.	NO ITEM C
+d.	received a direct revelation from God? 
+e.	experienced or witnessed the devil or evil spirits being driven out of a person? 
+f.	spoken or prayed in tongues? 
+
+1	Yes
+2	No
+98	Don’t know (DO NOT READ)
+99	Refused (DO NOT READ)
+
+ASK ALL
+Q60	Which, if any, of the following do you believe? Do you believe (INSERT), or not?
+ (READ LIST) 
+
+a.	in God? 
+e.	in Heaven? 
+f.	in Hell? 
+j.	in Miracles? 
+
+1	Yes
+2	No
+98	Don’t know (DO NOT READ)
+99	Refused (DO NOT READ)
+
+ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5)
+Q46	And does the church or house of worship where you most often attend religious services (INSERT)? (READ LIST) 
+	
+a.	Try to bring others into the faith by spreading the message of Christ? 
+	
+1	Yes
+2	No
+98	Don’t know (DO NOT READ)
+99	Refused (DO NOT READ)
+
+
