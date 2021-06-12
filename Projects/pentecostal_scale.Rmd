@@ -80,7 +80,7 @@ for(i in 1:rep){
 
 # Objectives
 
-	This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterium validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
+	This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterion validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
 	
 # Literature Review
 
@@ -96,7 +96,7 @@ For my dependent variable I selected a dichotomous item indicating self-identifi
 
 After that, I calculated the coefficient alpha as a measure of reliability and item statistics of the 10-item composite test, using the function “alpha” in the R package “psych”. The coefficient alpha estimates internal consistency, showing whether the different items in the scale measure statistically correlated underlying constructs, whichever they may be. That, on its own hand, helps us to estimate the reliability of scale items in measuring our construct of interest.
 
-At last, to evaluate the fit of a scale composed by the 10 items of the survey to classify and predict religious affiliation with Pentecostalism I used Discriminant Analysis (DA), using the function “lda” from the R package “MASS”. Two sub-groups — Non-Pentecostals and Pentecostals — were established according to a self-identification question included in the same survey. The DA model created a linear function that, when applied to each individual test results, creates a discriminant score that maximizes the difference between its sub-group means. The average between the two sub-group means characterizes the cut-off value of the DA model, which is used to classify each score to the Non-Pentecostal or Pentecostal group depending on its standing above or below the cut-off. I evaluated the fit of the model by cross-validating it, which entails applying it to various random subsamples of the data, before verifying the proportion of cases that it predicts correctly, also named hit ratio. The linear function calculated by the DA model ultimately helps us to understand the strength of the relationship between the composite score of the scale I proposed and the self-identification measure. Discriminant Analysis is most often used to verify criterium validity with multiple predictors, which is not the case here given that I am using a single composite score as the independent variable. Still, I believe that DA might still be a good estimative of criterium validity for my purposes given I am trying to differentiate between two categorial dependent variables.
+At last, to evaluate the fit of a scale composed by the 10 items of the survey to classify and predict religious affiliation with Pentecostalism I used Discriminant Analysis (DA), using the function “lda” from the R package “MASS”. Two sub-groups — Non-Pentecostals and Pentecostals — were established according to a self-identification question included in the same survey. The DA model created a linear function that, when applied to each individual test results, creates a discriminant score that maximizes the difference between its sub-group means. The average between the two sub-group means characterizes the cut-off value of the DA model, which is used to classify each score to the Non-Pentecostal or Pentecostal group depending on its standing above or below the cut-off. I evaluated the fit of the model by cross-validating it, which entails applying it to various random subsamples of the data, before verifying the proportion of cases that it predicts correctly, also named hit ratio. The linear function calculated by the DA model ultimately helps us to understand the strength of the relationship between the composite score of the scale I proposed and the self-identification measure. Discriminant Analysis is most often used to verify criterion validity with multiple predictors, which is not the case here given that I am using a single composite score as the independent variable. Still, I believe that DA might still be a good estimative of criterion validity for my purposes given I am trying to differentiate between two categorial dependent variables.
 
 # Results
 
@@ -122,7 +122,7 @@ print(mean(hitr))
 
 # Discussion
 
-Overall, the scale of Pentecostal affiliation that I proposed presents moderate reliability and moderate criterium validity. However, it is important to consider the broad range of populations included in the validation of this scale when evaluating its usefulness— 18 nationally representative surveys spanning 3 different languages—, which means that it moderately measures the construct of Pentecostal affiliation among various populations and contexts. Although this scale presents moderate predictive power, and seems to include moderately predictive individual items, I would suggest as next steps the development and testing of additional items as a way to improve the overall scale performance in reliability and validity measures, particularly to diminish its false-negative rates. Another venue of further exploration would be testing the reliability and validity of this scale for more specific populations, given that it possibly holds more significant classificatory power for some social groups than others. On the downside, it is important to notice that the usage of self-identification as a criterium for construct validity remains contested, given the complexity of identification and affiliation in regards to a religious movement. For instance, changes in wording result in significant differences in interpretation for different populations (Hackett 2014; Hackett and Lindsay 2008).
+Overall, the scale of Pentecostal affiliation that I proposed presents moderate reliability and moderate criterion validity. However, it is important to consider the broad range of populations included in the validation of this scale when evaluating its usefulness— 18 nationally representative surveys spanning 3 different languages—, which means that it moderately measures the construct of Pentecostal affiliation among various populations and contexts. Although this scale presents moderate predictive power, and seems to include moderately predictive individual items, I would suggest as next steps the development and testing of additional items as a way to improve the overall scale performance in reliability and validity measures, particularly to diminish its false-negative rates. Another venue of further exploration would be testing the reliability and validity of this scale for more specific populations, given that it possibly holds more significant classificatory power for some social groups than others. On the downside, it is important to notice that the usage of self-identification as a criterion for construct validity remains contested, given the complexity of identification and affiliation in regards to a religious movement. For instance, changes in wording result in significant differences in interpretation for different populations (Hackett 2014; Hackett and Lindsay 2008).
 
 # References
 
@@ -151,9 +151,9 @@ Stoll, David. 1990. Is Latin America Turning Protestant?: The Politics of Evange
 
 # Appendix A – Test Items
 
-## CRITERIUM VARIABLE (PENTECOSTAL SELF-IDENTIFICATION)
+## criterion VARIABLE (PENTECOSTAL SELF-IDENTIFICATION)
 
-ASK IF CHRISTIAN (QCURREL = 1,2 OR QCURRELc=1) (IF CHRISTIAN, INCLUDING CATHOLICS AND ALL SELF-IDENTIFIED CHRISTIANS)
+ - ASK IF CHRISTIAN (QCURREL = 1,2 OR QCURRELc=1) (IF CHRISTIAN, INCLUDING CATHOLICS AND ALL SELF-IDENTIFIED CHRISTIANS)
 Q28	Would you describe yourself as a (INSERT ITEM), or not? And would you describe
 yourself as a (INSERT ITEM) or not? 
 
@@ -172,7 +172,7 @@ d.	“born again”
 
 ### DICHOTOMOUS (10 QUESTIONS)
 
-ASK ALL
+ - ASK ALL
 Q55	Have you ever (INSERT) 
 
 a.	experienced or witnessed a divine healing of an illness or injury? 
@@ -187,7 +187,7 @@ f.	spoken or prayed in tongues?
 98	Don’t know (DO NOT READ)
 99	Refused (DO NOT READ)
 
-ASK ALL
+ - ASK ALL
 Q60	Which, if any, of the following do you believe? Do you believe (INSERT), or not?
  (READ LIST) 
 
@@ -201,7 +201,7 @@ j.	in Miracles?
 98	Don’t know (DO NOT READ)
 99	Refused (DO NOT READ)
 
-ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5)
+ - ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5)
 Q46	And does the church or house of worship where you most often attend religious services (INSERT)? (READ LIST) 
 	
 a.	Try to bring others into the faith by spreading the message of Christ? 

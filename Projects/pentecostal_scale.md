@@ -113,7 +113,7 @@ for(i in 1:rep){
 
 # Objectives
 
-    This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterium validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
+    This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterion validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
 
 # Literature Review
 
@@ -208,10 +208,10 @@ the proportion of cases that it predicts correctly, also named hit
 ratio. The linear function calculated by the DA model ultimately helps
 us to understand the strength of the relationship between the composite
 score of the scale I proposed and the self-identification measure.
-Discriminant Analysis is most often used to verify criterium validity
+Discriminant Analysis is most often used to verify criterion validity
 with multiple predictors, which is not the case here given that I am
 using a single composite score as the independent variable. Still, I
-believe that DA might still be a good estimative of criterium validity
+believe that DA might still be a good estimative of criterion validity
 for my purposes given I am trying to differentiate between two
 categorial dependent variables.
 
@@ -347,7 +347,7 @@ print(mean(hitr))
 # Discussion
 
 Overall, the scale of Pentecostal affiliation that I proposed presents
-moderate reliability and moderate criterium validity. However, it is
+moderate reliability and moderate criterion validity. However, it is
 important to consider the broad range of populations included in the
 validation of this scale when evaluating its usefulness— 18 nationally
 representative surveys spanning 3 different languages—, which means that
@@ -362,7 +362,7 @@ testing the reliability and validity of this scale for more specific
 populations, given that it possibly holds more significant
 classificatory power for some social groups than others. On the
 downside, it is important to notice that the usage of
-self-identification as a criterium for construct validity remains
+self-identification as a criterion for construct validity remains
 contested, given the complexity of identification and affiliation in
 regards to a religious movement. For instance, changes in wording result
 in significant differences in interpretation for different populations
@@ -414,12 +414,12 @@ of Evangelical Growth. Berkeley, CA: University of California Press.
 
 # Appendix A – Test Items
 
-## CRITERIUM VARIABLE (PENTECOSTAL SELF-IDENTIFICATION)
+## criterion VARIABLE (PENTECOSTAL SELF-IDENTIFICATION)
 
-ASK IF CHRISTIAN (QCURREL = 1,2 OR QCURRELc=1) (IF CHRISTIAN, INCLUDING
-CATHOLICS AND ALL SELF-IDENTIFIED CHRISTIANS) Q28 Would you describe
-yourself as a (INSERT ITEM), or not? And would you describe yourself as
-a (INSERT ITEM) or not?
+-   ASK IF CHRISTIAN (QCURREL = 1,2 OR QCURRELc=1) (IF CHRISTIAN,
+    INCLUDING CATHOLICS AND ALL SELF-IDENTIFIED CHRISTIANS) Q28 Would
+    you describe yourself as a (INSERT ITEM), or not? And would you
+    describe yourself as a (INSERT ITEM) or not?
 
 1.  pentecostal
 2.  NO ITEM B
@@ -432,7 +432,7 @@ a (INSERT ITEM) or not?
 
 ### DICHOTOMOUS (10 QUESTIONS)
 
-ASK ALL Q55 Have you ever (INSERT)
+-   ASK ALL Q55 Have you ever (INSERT)
 
 1.  experienced or witnessed a divine healing of an illness or injury?
 2.  given or interpreted prophecy?
@@ -444,8 +444,8 @@ ASK ALL Q55 Have you ever (INSERT)
 
 1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
 
-ASK ALL Q60 Which, if any, of the following do you believe? Do you
-believe (INSERT), or not? (READ LIST)
+-   ASK ALL Q60 Which, if any, of the following do you believe? Do you
+    believe (INSERT), or not? (READ LIST)
 
 1.  in God?
 2.  in Heaven?
@@ -454,9 +454,9 @@ believe (INSERT), or not? (READ LIST)
 
 1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
 
-ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5) Q46
-And does the church or house of worship where you most often attend
-religious services (INSERT)? (READ LIST)
+-   ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5)
+    Q46 And does the church or house of worship where you most often
+    attend religious services (INSERT)? (READ LIST)
 
 1.  Try to bring others into the faith by spreading the message of
     Christ?

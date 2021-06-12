@@ -286,38 +286,38 @@ of Evangelical Growth. Berkeley, CA: University of California Press.
 
 ## Democratic Participation
 
-ASK ALL Q17 Some feel that we should rely on a democratic form of
-government to solve our country’s problems. Others feel that we should
-rely on a leader with a strong hand to solve our country’s problems.
-Which comes closer to your opinion?
+-   ASK ALL Q17 Some feel that we should rely on a democratic form of
+    government to solve our country’s problems. Others feel that we
+    should rely on a leader with a strong hand to solve our country’s
+    problems. Which comes closer to your opinion?
 
 1 Democratic form of government 2 Strong leader  
 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
 
-ASK ALL Q22 Would you say you follow what’s going on in government and
-public affairs (READ )?
+-   ASK ALL Q22 Would you say you follow what’s going on in government
+    and public affairs (READ )?
 
 1 Most of the time 2 Some of the time 3 Only now and then, OR 4 Hardly
 at all 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
 
-ASK ALL Q8 How often, if at all, do you work with other people in your
-neighborhood to improve conditions in your community? Do you do this
-(READ)? 1 Often 2 Sometimes 3 Rarely OR, 3 Never 98 Don’t know (DO NOT
-READ) 99 Refused (DO NOT READ)
+-   ASK ALL Q8 How often, if at all, do you work with other people in
+    your neighborhood to improve conditions in your community? Do you do
+    this (READ)? 1 Often 2 Sometimes 3 Rarely OR, 3 Never 98 Don’t know
+    (DO NOT READ) 99 Refused (DO NOT READ)
 
 ## Religious Participation
 
-ASK ALL Q45 Aside from weddings and funerals how often do you attend
-religious services… more than once a week, once a week, once or twice a
-month, a few times a year, seldom, or never?
+-   ASK ALL Q45 Aside from weddings and funerals how often do you attend
+    religious services… more than once a week, once a week, once or
+    twice a month, a few times a year, seldom, or never?
 
 1 More than once a week 2 Once a week 3 Once or twice a month 4 A few
 times a year 5 Seldom 6 Never (SKIP TO Q52) 98 Don’t know (DO NOT READ)
 99 Refused (DO NOT READ)
 
-ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5) Q48
-Thinking of the church or place of worship that you attend most often,
-are you \[INSERT\], or not?
+-   ASK IF ATTENDS RELIGIOUS SERVICES MORE THAN NEVER (Q45 = 1 THRU 5)
+    Q48 Thinking of the church or place of worship that you attend most
+    often, are you \[INSERT\], or not?
 
 1.  a member of the church council there?
 2.  the leader of any small groups or ministries there?
@@ -325,9 +325,9 @@ are you \[INSERT\], or not?
 
 1 Yes 2 No 98 Don’t know (DO NOT READ) 99 Refused (DO NOT READ)
 
-ASK ALL Q66 Please tell me how often you do each of the following. Would
-you say at least once a week, once or twice a month, several times a
-year, seldom, or never? (READ LIST) (SHOW CARD)
+-   ASK ALL Q66 Please tell me how often you do each of the following.
+    Would you say at least once a week, once or twice a month, several
+    times a year, seldom, or never? (READ LIST) (SHOW CARD)
 
 2.  participate in prayer groups or scripture study groups
 3.  share your faith or views on God with people from other religions
