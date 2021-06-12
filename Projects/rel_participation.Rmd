@@ -5,7 +5,7 @@ date: "6/4/2021"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=TRUE}
 
 library(haven)
 library(tidyverse)
@@ -13,11 +13,11 @@ library(psych)
 library(knitr)
 library(GPArotation)
 
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ```
 
-# Religious Participation versus Democratic Participation
+# Preparing Data
 
 ```{r data}
 
@@ -39,6 +39,8 @@ rel_df <- as.data.frame(rel_df) %>%
   drop_na()
 
 ```
+
+# Religious Participation versus Democratic Participation
 
 Contradicting previous sociological views on secularization, which predicted the decline of the importance of religion in the political arena as modernization progressed, since the 1980s religion has re-awakened in the public arena, both in the United States and in Brazil (Casanova 1994). In the United States, the Evangelical and Fundamentalist revival characterized the New Religious Right, backing the Moral Majority, prompting continued analytical relevance within sociology and political science (Hackett and Lindsay 2008; Kellstedt and Smidt 1991). Meanwhile, in Brazil, the Pentecostal movement, which shares multiple characteristics with the American Evangelical and Fundamentalists, has presented extraordinary growth since mid-20th century. In many countries, the Pentecostal movement ended up characterized by support to the military dictatorships of the 1970s and 1980s (Chesnut 1997; Martin 1990; Stoll 1990). More recently, in Brazil they now represent a third of the population, with proportional representation in Congress and increasing weight in presidential elections (Nicolau 2014), given their high political articulation and cohesion which allow for cheap and effective campaigns (Baptista 2009). In the 2018 election of the authoritarian populist President Jair Bolsonaro, who won with 55%, Pentecostals disproportionally voted for him when compared to Catholics and the religiously unaffiliated.
 

@@ -4,7 +4,43 @@ Participation Variables in Latin America
 Gustavo Arruda
 6/4/2021
 
-# Religious Participation versus Democratic Participation
+``` r
+library(haven)
+library(tidyverse)
+```
+
+    ## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
+
+    ## v ggplot2 3.3.3     v purrr   0.3.4
+    ## v tibble  3.1.0     v dplyr   1.0.4
+    ## v tidyr   1.1.2     v stringr 1.4.0
+    ## v readr   1.4.0     v forcats 0.5.1
+
+    ## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+    ## x dplyr::filter() masks stats::filter()
+    ## x dplyr::lag()    masks stats::lag()
+
+``` r
+library(psych)
+```
+
+    ## Warning: package 'psych' was built under R version 4.0.5
+
+    ## 
+    ## Attaching package: 'psych'
+
+    ## The following objects are masked from 'package:ggplot2':
+    ## 
+    ##     %+%, alpha
+
+``` r
+library(knitr)
+library(GPArotation)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+# Preparing Data
 
 ``` r
 rel_vars <- c('Q22', 'Q8', 'Q45',
@@ -24,6 +60,8 @@ rel_df <- as.data.frame(rel_df) %>%
   na_if(., "99") %>%
   drop_na()
 ```
+
+# Religious Participation versus Democratic Participation
 
 Contradicting previous sociological views on secularization, which
 predicted the decline of the importance of religion in the political
@@ -129,9 +167,6 @@ cor(rel_df, method = 'spearman')
 fa(rel_df, rotate = 'varimax', cor = 'poly', weight = NULL,
    nfactors = 3, warnings = TRUE, fm = 'pa')
 ```
-
-    ## Warning in polychoric(r, correct = correct, weight = weight): The items do not
-    ## have an equal number of response alternatives, global set to FALSE.
 
     ## Factor Analysis using method =  pa
     ## Call: fa(r = rel_df, nfactors = 3, rotate = "varimax", warnings = TRUE, 
