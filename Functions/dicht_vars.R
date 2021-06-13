@@ -86,32 +86,32 @@ dicht_std_dev <- function(item_frame) {
 # Definitely could more modular, separating the
 # joint frequency table printing from the simple
 # calculation output.
-dicht_cor <- function(item_frame, itemA, itemB, tableOpt) {
-    iA_iB <- count(item_frame, item_frame[itemA] == 0 &
-                     item_frame[itemB] == 0)[2, 2]
-    cA_cB <- count(item_frame, item_frame[itemA] == 1 &
-                     item_frame[itemB] == 1)[2, 2]
-    cA_iB <- count(item_frame, item_frame[itemA] == 1 &
-                     item_frame[itemB] == 0)[2, 2]
-    iA_cB <- count(item_frame, item_frame[itemA] == 0 &
-                     item_frame[itemB] == 1)[2, 2]
-    
-    joint_freq <- data.frame('cA' = c(cA_iB, cA_cB),
-                             'iA' = c(iA_iB, iA_cB))
-    row.names(joint_freq) <- c('iB', 'cB')
-    
-    joint_freq[is.na(joint_freq)] = 0
-    dicht_cor_coef <- (((joint_freq[1, 2] * joint_freq[2, 1]) -
-                          (joint_freq[1, 1] * joint_freq[2, 2])) /
-                         sqrt((joint_freq[1, 2] + joint_freq[2, 2]) *
-                                (joint_freq[1, 2] + joint_freq[1, 1]) *
-                                (joint_freq[2, 1] + joint_freq[1, 1]) *
-                                (joint_freq[2, 1] + joint_freq[2, 2])))
-
-    if (tableOpt == TRUE){
-      print(joint_freq) 
-    }
-    return(dicht_cor_coef[[1]])
+dicht_cor <- function(item_frame, itemA, itemB, tableOpt = FALSE) {
+  iA_iB <- count(item_frame, item_frame[itemA] == 0 &
+                   item_frame[itemB] == 0)[2, 2]
+  cA_cB <- count(item_frame, item_frame[itemA] == 1 &
+                   item_frame[itemB] == 1)[2, 2]
+  cA_iB <- count(item_frame, item_frame[itemA] == 1 &
+                   item_frame[itemB] == 0)[2, 2]
+  iA_cB <- count(item_frame, item_frame[itemA] == 0 &
+                   item_frame[itemB] == 1)[2, 2]
+  
+  joint_freq <- data.frame('cA' = c(cA_iB, cA_cB),
+                           'iA' = c(iA_iB, iA_cB))
+  row.names(joint_freq) <- c('iB', 'cB')
+  
+  joint_freq[is.na(joint_freq)] = 0
+  dicht_cor_coef <- (((joint_freq[1, 2] * joint_freq[2, 1]) -
+                        (joint_freq[1, 1] * joint_freq[2, 2])) /
+                       sqrt((joint_freq[1, 2] + joint_freq[2, 2]) *
+                              (joint_freq[1, 2] + joint_freq[1, 1]) *
+                              (joint_freq[2, 1] + joint_freq[1, 1]) *
+                              (joint_freq[2, 1] + joint_freq[2, 2])))
+  
+  if (tableOpt == TRUE){
+    print(joint_freq) 
+  }
+  return(dicht_cor_coef[[1]])
 }
 
 
