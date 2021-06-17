@@ -113,7 +113,17 @@ for(i in 1:rep){
 
 # Objectives
 
-    This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterion validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
+This project seeks to develop and validate a scale to measure
+Pentecostal affiliation among Latin American Christians. To accomplish
+that, I am gathering dichotomous questions from a large-scale survey
+conducted by the Pew Research Center, chosen by their face validity in
+relation to the literature on the Pentecostal movement, estimating their
+composite reliability, calculated with the coefficient alpha, and their
+criterion validity, estimated with Discriminant Analysis to a
+self-identification question from the same questionnaire. With such a
+scale, we could explore Pentecostal affiliation and its political
+ramifications among different social groups considering more factors
+than only self-identification.
 
 # Literature Review
 
@@ -298,6 +308,12 @@ classify affiliation with the Pentecostal movement among Christian
 individuals in Latin America.
 
 ``` r
+print('Confusion Table, or number of correctly classified cases broken down by category: ')
+```
+
+    ## [1] "Confusion Table, or number of correctly classified cases broken down by category: "
+
+``` r
 print(tab_lda_P)
 ```
 
@@ -307,10 +323,10 @@ print(tab_lda_P)
     ##   1  3998   913
 
 ``` r
-print(sum(diag(tab_lda_P))/nrow(rel_df))
+paste('Hit Ratio, or percentage of overall correctly classified cases: ', sum(diag(tab_lda_P))/nrow(rel_df))
 ```
 
-    ## [1] 0.7724643
+    ## [1] "Hit Ratio, or percentage of overall correctly classified cases:  0.772464269818505"
 
 ``` r
 print(model_P)
@@ -333,16 +349,16 @@ print(model_P)
     ## score 0.5919371
 
 ``` r
-paste('Cutoff: ', cutoff)
+paste('Cutoff Value: ', cutoff)
 ```
 
-    ## [1] "Cutoff:  6"
+    ## [1] "Cutoff Value:  6"
 
 ``` r
-print(mean(hitr))
+paste('Cross-Validated Hit Ratio, with random sub-sample of 2000 repeated 100 times: ', mean(hitr))
 ```
 
-    ## [1] 0.7723363
+    ## [1] "Cross-Validated Hit Ratio, with random sub-sample of 2000 repeated 100 times:  0.772336315240656"
 
 # Discussion
 

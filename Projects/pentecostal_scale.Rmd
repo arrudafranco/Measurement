@@ -80,7 +80,7 @@ for(i in 1:rep){
 
 # Objectives
 
-	This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterion validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
+This project seeks to develop and validate a scale to measure Pentecostal affiliation among Latin American Christians. To accomplish that, I am gathering dichotomous questions from a large-scale survey conducted by the Pew Research Center, chosen by their face validity in relation to the literature on the Pentecostal movement, estimating their composite reliability, calculated with the coefficient alpha, and their criterion validity, estimated with Discriminant Analysis to a self-identification question from the same questionnaire. With such a scale, we could explore Pentecostal affiliation and its political ramifications among different social groups considering more factors than only self-identification.
 	
 # Literature Review
 
@@ -112,11 +112,16 @@ The hit ratio was moderately predictive, giving 77.23% of correct predictions, r
 
 ```{r discriminant}
 
+print('Confusion Table, or number of correctly classified cases broken down by category: ')
 print(tab_lda_P)
-print(sum(diag(tab_lda_P))/nrow(rel_df))
+
+paste('Hit Ratio, or percentage of overall correctly classified cases: ', sum(diag(tab_lda_P))/nrow(rel_df))
+
 print(model_P)
-paste('Cutoff: ', cutoff)
-print(mean(hitr))
+
+paste('Cutoff Value: ', cutoff)
+
+paste('Cross-Validated Hit Ratio, with random sub-sample of 2000 repeated 100 times: ', mean(hitr))
 
 ```
 
