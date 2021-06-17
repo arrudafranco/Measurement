@@ -121,7 +121,7 @@ dicht_cor <- function(item_frame, itemA, itemB, tableOpt = FALSE) {
 # two item IDs. As output, the function returns
 # the covariance between the two given items.
 dicht_covar <- function(item_frame, itemA, itemB){
-  corAB <- dicht_cor(item_frame, itemA, itemB, FALSE)
+  corAB <- dicht_cor(item_frame, itemA, itemB)
   std_all <- dicht_std_dev(item_frame)
   stdA <- std_all[itemA]
   stdB <- std_all[itemB]
